@@ -2,10 +2,11 @@
 
 ## Description
 
-Test task for Votendo.
+[Test task for Votendo](VOTENDO-TEST.md).
 Maze solver microservice.
 
 [Api docs](docs/API.md)
+[Configuration docs](docs/Configuration.md)
 
 ## Installation
 
@@ -31,6 +32,12 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# docker development
+$ docker-compose up dev
+
+# docker production mode
+$ docker-compose up prod
 ```
 
 ## Test
