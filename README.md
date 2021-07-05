@@ -1,4 +1,4 @@
-# Maze solver
+# Maze solver api
 
 ## Description
 
@@ -11,6 +11,13 @@ Maze solver microservice.
 
 ```bash
 $ npm install
+```
+
+## Installation development environment
+
+```bash
+$ npm install
+$ npm run prepare
 ```
 
 ## Running the app
