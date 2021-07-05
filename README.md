@@ -5,8 +5,13 @@
 [Test task for Votendo](VOTENDO-TEST.md).
 Maze solver microservice.
 
+## Documentation
+
 [Api docs](docs/API.md)
+
 [Configuration docs](docs/Configuration.md)
+
+After starting of microservice you can access to swagger at: [http://localhost:3000/swagger](http://localhost:3000/swagger).
 
 ## Installation
 
