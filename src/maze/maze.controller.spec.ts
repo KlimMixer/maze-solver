@@ -43,7 +43,7 @@ describe('MazeController', () => {
       } catch (err) {
         error = err;
       }
-      expect(error.message).toContain("Maze hasn't solution.");
+      expect(error.message).toContain("Maze hasn't solution");
     });
 
     it('Check to small(1x1) maze', async () => {

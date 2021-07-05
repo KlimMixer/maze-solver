@@ -16,6 +16,10 @@ export class MazeValidator {
     startPosition: Node,
     endPosition: Node,
   ): void {
+    if (maze === undefined) {
+      throw new Error('Maze not passed');
+    }
+
     if (this.isMazeToSmall(maze)) {
       throw new Error(
         'Maze is to small. It should be more than 1 row and 1 column',

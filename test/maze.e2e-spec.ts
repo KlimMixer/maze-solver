@@ -86,7 +86,7 @@ describe('MazeController (e2e)', () => {
       .expect(400)
       .then((res) => {
         expect(res.body).toHaveProperty('statusCode', 400);
-        expect(res.body).toHaveProperty('message', "Maze hasn't solution.");
+        expect(res.body).toHaveProperty('message', "Maze hasn't solution");
         expect(res.body).toHaveProperty('error', 'Bad Request');
       });
   });

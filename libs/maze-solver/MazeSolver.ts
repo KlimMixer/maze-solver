@@ -79,7 +79,7 @@ export class MazeSolver {
       }
     }
 
-    throw new Error("Maze hasn't solution.");
+    throw new Error("Maze hasn't solution");
   }
 
   private async isValidCoor(x: number, y: number) {
