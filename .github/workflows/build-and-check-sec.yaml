@@ -23,8 +23,8 @@ jobs:
         uses: aquasecurity/trivy-action@0.20.0
         with:
           image-ref: 'KlimMixer/maze-solver:${{ github.sha }}'
-          format: 'sarif'
-          output: 'trivy-results.sarif'
+          format: 'table'
+          # output: 'trivy-results.sarif'
 
       - name: Upload Trivy scan results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@v2
