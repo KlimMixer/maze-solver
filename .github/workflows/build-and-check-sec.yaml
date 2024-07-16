@@ -17,12 +17,12 @@ jobs:
 
       - name: Build an image from Dockerfile
         run: |
-          docker build -t KlimMixer/maze-solver:${{ github.sha }} .
+          docker build -t docker.io/KlimMixer/maze-solver:${{ github.sha }} .
 
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.20.0
         with:
-          image-ref: 'KlimMixer/maze-solver:${{ github.sha }}'
+          image-ref: 'docker.io/KlimMixer/maze-solver:${{ github.sha }}'
           format: 'table'
           # output: 'trivy-results.sarif'
 
